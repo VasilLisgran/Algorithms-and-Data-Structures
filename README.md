@@ -1,4 +1,4 @@
-# Algorithms and Data Structures (Java, C++)
+# Algorithms and Data Structures (Java, C++, Python)
 
 📚 A collection of algorithm implementations in Java with detailed explanations and examples.
 
