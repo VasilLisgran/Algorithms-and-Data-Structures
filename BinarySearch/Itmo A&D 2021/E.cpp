@@ -2,14 +2,6 @@
 
 using namespace std;
 
-int validl(int x, int l){
-    return x >= l;
-}
-
-int validr(int x, int r){
-    return x <= r;
-}
-
 int main(){
     int n; cin >> n;
 
@@ -35,7 +27,7 @@ int main(){
         while (lo < hi){
             int mid = (lo + hi) / 2;
             if (v[mid] > r) hi = mid;
-            else lo = mid + 1;
+            else lo = mid;
         }
         int right = lo;
 
