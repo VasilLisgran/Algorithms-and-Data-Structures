@@ -27,7 +27,8 @@ int main(){
             p++;
         }
         else if(a == 2){
-            h++;
+            //h++; another type of solution
+            h = (h+1)%sz;
         }
         else if(a == 3){
             p--;
@@ -39,7 +40,7 @@ int main(){
             cout<< (pos[q] - h)%n << '\n';
         }
         else{
-            cout << d[h%sz] << '\n';
+            cout << d[h] << '\n';
         }
     }
 }
